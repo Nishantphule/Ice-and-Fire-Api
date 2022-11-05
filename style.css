@@ -49,11 +49,12 @@ img {
 
 #pageNum {
     border: 2px solid white;
-    margin: 0 2px;
-    padding: 1px 5px;
+    padding: 2px 15px;
     color: black;
 }
-
+#pageNumDiv{
+    text-align: end;
+}
 
 /* actions button div */
 #actionDiv {
@@ -66,10 +67,6 @@ img {
 /* books div styling*/
 #booksDiv {
     background-color: #DEF5E5;
-}
-
-#charList {
-    font-size: 20px;
 }
 
 .bookList {
@@ -97,7 +94,7 @@ img {
 }
 
 .bookCard b {
-    color: gray;
+    color: darkgray;
 }
 
 

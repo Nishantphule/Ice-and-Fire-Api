@@ -57,10 +57,11 @@ searchDiv.appendChild(searchbar)
 
 // 2 . displaying page number
 const pageDiv = document.createElement("div")
-pageDiv.classList += "col-2 ml-auto"
+pageDiv.classList += "col-6"
+pageDiv.id = "pageNumDiv"
 let paginationNo = document.createElement('h4')
 pageDiv.appendChild(paginationNo)
-paginationNo.innerHTML = `Page<span id="pageNum">${pageNo}</span>`
+paginationNo.innerHTML = `Page <span id="pageNum">${pageNo}</span>`
 navBar.append(searchDiv, pageDiv)
 
 
@@ -125,8 +126,8 @@ async function createCard(name, pages, isbn, author, publisher, relDate, charact
     releasedDate.innerHTML = `<b>Released Date</b> - ${relDate}`
 
     // displaying 5 characters of each book as a list
-    const charTitle = document.createElement("h4")
-    charTitle.innerHTML = "<b>Five characters-</b>"
+    const charTitle = document.createElement("h5")
+    charTitle.innerHTML = "<b>Five characters</b> -"
 
     // creating ordered list
     const charactersList = document.createElement("ol")
