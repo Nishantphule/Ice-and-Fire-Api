@@ -1,0 +1,118 @@
+body {
+    background-color: #9ED5C5;
+    color: white;
+}
+
+
+/* heading row */
+#firstRow {
+    text-align: center;
+    align-items: center;
+    background-color: #BCEAD5;
+    margin: 2%;
+    padding: 2%;
+}
+
+#header {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+#ice {
+    color: rgb(63, 128, 202);
+}
+
+#fire {
+    color: rgb(223, 75, 17);
+}
+
+img {
+    height: 80px;
+    width: 100px;
+}
+
+
+/* loading button */
+#loadingBtn {
+    color: black;
+}
+
+
+/* search and page number bar */
+#navBar {
+    background-color: #9ED5C5;
+}
+
+#searchbar {
+    font-weight: bold;
+}
+
+#pageNum {
+    border: 2px solid white;
+    margin: 0 2px;
+    padding: 1px 5px;
+    color: black;
+}
+
+
+/* actions button div */
+#actionDiv {
+    margin: 10% 0 0;
+    background-color: #DEF5E5;
+    padding: 5px;
+}
+
+
+/* books div styling*/
+#booksDiv {
+    background-color: #DEF5E5;
+}
+
+#charList {
+    font-size: 20px;
+}
+
+.bookList {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.bookCard {
+    width: 45%;
+    padding: 2%;
+    background-color: #8EC3B0;
+    margin: 1%;
+    box-shadow: 10px 10px 5px black;
+}
+
+
+/* book details style */
+#bookName {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+.bookCard b {
+    color: gray;
+}
+
+
+/* media queries */
+@media screen and (max-width:991px) {
+    .bookCard {
+        width: 90%;
+        padding: 2%;
+        margin: 1%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    img {
+        height: 150px;
+        width: 200px;
+    }
+}
