@@ -61,7 +61,7 @@ pageDiv.classList += "col-6"
 pageDiv.id = "pageNumDiv"
 let paginationNo = document.createElement('h4')
 pageDiv.appendChild(paginationNo)
-paginationNo.innerHTML = `Page <span id="pageNum">${pageNo}</span>`
+paginationNo.innerHTML = `Page   <span id="pageNum">${pageNo}</span>`
 navBar.append(searchDiv, pageDiv)
 
 
