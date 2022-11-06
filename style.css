@@ -1,5 +1,8 @@
+/* body styling */
 body {
-    background-color: #9ED5C5;
+    background-image: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
 }
 
@@ -8,9 +11,11 @@ body {
 #firstRow {
     text-align: center;
     align-items: center;
-    background-color: #BCEAD5;
     margin: 2%;
     padding: 2%;
+    background-image: url("https://images.unsplash.com/photo-1605290975464-72d2acef7d4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGJvb2slMjBjb3ZlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #header {
@@ -39,27 +44,24 @@ img {
 
 
 /* search and page number bar */
-#navBar {
-    background-color: #9ED5C5;
-}
-
 #searchbar {
     font-weight: bold;
 }
 
 #pageNum {
-    border: 2px solid white;
+    border: 3px solid black;
     padding: 2px 15px;
-    color: black;
+    color: red;
 }
 #pageNumDiv{
+    color: black;
     text-align: end;
+    font-weight: bold;
 }
 
 /* actions button div */
 #actionDiv {
     margin: 10% 0 0;
-    background-color: #DEF5E5;
     padding: 5px;
 }
 
@@ -84,6 +86,9 @@ img {
     background-color: #8EC3B0;
     margin: 1%;
     box-shadow: 10px 10px 5px black;
+    background-image: url('https://media.istockphoto.com/id/1207460272/photo/abstract-background.jpg?s=612x612&w=0&k=20&c=obzvqhNz4HxnsnjJcROpx6XCCGSwLuWW2mfUVFyrROM=');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 

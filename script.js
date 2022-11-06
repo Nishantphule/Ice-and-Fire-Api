@@ -68,6 +68,7 @@ navBar.append(searchDiv, pageDiv)
 // creating a function for search input element to get the books in the table when you type the name in input by using onkeyup attributte
 const searchFun = () => {
     var input, filter, h2, title, i, txtValue, books, card;
+    
     input = document.getElementById("searchbar");
     filter = input.value.toUpperCase();
     h2 = document.getElementsByTagName("h2");
@@ -77,6 +78,7 @@ const searchFun = () => {
         title = h2[i].innerHTML
         if (title) {
             txtValue = title.toUpperCase();
+            let re = new RegExp(filter, 'i');
             if (txtValue.includes(filter)) {
                 card[i].style.display = "";
             } else {
@@ -87,11 +89,14 @@ const searchFun = () => {
 }
 
 
+
+
 // creating a div to display books
 const displayBookDiv = document.createElement("div")
 displayBookDiv.classList += "container bookList"
 displayBookDiv.id = "booksDiv"
 displayBookDiv.style.height = 'min-content'
+displayBookDiv.style.backgroundImage = "url('https://images.unsplash.com/photo-1621944193575-816edc981878?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTV8fGJvb2slMjBjb3ZlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60')"
 
 
 // creating a card function to display all the book details in a card.
