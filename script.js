@@ -60,7 +60,7 @@ pageDiv.classList += "col-6"
 pageDiv.id = "pageNumDiv"
 let paginationNo = document.createElement('h4')
 pageDiv.appendChild(paginationNo)
-paginationNo.innerHTML = `Page   <span id="pageNum">${pageNo}</span>`
+paginationNo.innerHTML = `Page <span id="pageNum">${pageNo}</span>`
 navBar.append(searchDiv, pageDiv)
 
 
@@ -234,7 +234,7 @@ prevBtn.addEventListener("click", () => {
     else {
         pageNo--
         getBooks(pageNo)
-        paginationNo.innerHTML = `Page<span id="pageNum">${pageNo}</span>`
+        paginationNo.innerHTML = `Page <span id="pageNum">${pageNo}</span>`
     }
 })
 
@@ -245,7 +245,7 @@ nextBtn.addEventListener("click", () => {
     else {
         pageNo++
         getBooks(pageNo)
-        paginationNo.innerHTML = `Page<span id="pageNum">${pageNo}</span>`
+        paginationNo.innerHTML = `Page <span id="pageNum">${pageNo}</span>`
     }
 })
 
@@ -256,7 +256,7 @@ firstBtn.addEventListener("click", () => {
     else {
         pageNo = 1
         getBooks(pageNo)
-        paginationNo.innerHTML = `Page<span id="pageNum">${pageNo}</span>`
+        paginationNo.innerHTML = `Page <span id="pageNum">${pageNo}</span>`
     }
 })
 
@@ -267,6 +267,6 @@ lastBtn.addEventListener("click", () => {
     else {
         pageNo = 5
         getBooks(pageNo)
-        paginationNo.innerHTML = `Page<span id="pageNum">${pageNo}</span>`
+        paginationNo.innerHTML = `Page <span id="pageNum">${pageNo}</span>`
     }
 })
