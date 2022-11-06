@@ -3,7 +3,6 @@
 // pagination page number
 var pageNo = 1
 
-
 // creating div for heading and icon
 const headerRow = document.createElement("div")
 headerRow.classList += "row"
@@ -89,8 +88,6 @@ const searchFun = () => {
 }
 
 
-
-
 // creating a div to display books
 const displayBookDiv = document.createElement("div")
 displayBookDiv.classList += "container bookList"
@@ -128,7 +125,7 @@ async function createCard(name, pages, isbn, author, publisher, relDate, charact
 
     // book release date element
     const releasedDate = document.createElement("h5")
-    releasedDate.innerHTML = `<b>Released Date</b> - ${relDate}`
+    releasedDate.innerHTML = `<b>Released Date</b> - ${relDate.split("").slice(0,10).join("")}`
 
     // displaying 5 characters of each book as a list
     const charTitle = document.createElement("h5")
