@@ -81,12 +81,13 @@ img {
 }
 
 .bookCard {
+    text-align: center;
     width: 45%;
     padding: 2%;
     background-color: #8EC3B0;
     margin: 1%;
     box-shadow: 10px 10px 5px black;
-    background-image: url('https://media.istockphoto.com/id/1207460272/photo/abstract-background.jpg?s=612x612&w=0&k=20&c=obzvqhNz4HxnsnjJcROpx6XCCGSwLuWW2mfUVFyrROM=');
+    background-image: url('https://images.unsplash.com/photo-1528459061998-56fd57ad86e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Ym9vayUyMGNvdmVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
     background-repeat: no-repeat;
     background-size: cover;
 }
